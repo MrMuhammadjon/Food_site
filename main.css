@@ -2,10 +2,10 @@
     --gold-color: #D68240;
     --withe-color: #fff;
     --background-color: #0A1316;
+    --gray-color: gray;
 }
 
-
-main{
+main {
     padding: 150px 0px 0px 0px;
     width: 100%;
     height: auto;
@@ -16,58 +16,51 @@ main{
     background-color: var(--background-color);
 }
 
-section{
+section {
     width: 80%;
     color: var(--withe-color);
 }
 
-.about_us{
+.about_us {
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.container_about_us{
+.container_about_us {
     width: 100%;
 }
 
-.container_about_us_left{
-    width: 50%;
-    flex: 1;
-}
-.container_about_us_right{
+.container_about_us_left {
     width: 50%;
     flex: 1;
 }
 
-.container_about_us_p{
+.container_about_us_right {
+    width: 50%;
+    flex: 1;
+}
+
+.container_about_us_p {
     flex-direction: column;
     align-items: start;
 }
 
-.container_about_us_p span{
-    width: 80px;
+.container_about_us_p span {
+    width: 100%;
     border: 1px solid var(--gold-color);
 }
 
-.container_about_us_left h1{
+.container_about_us_left h1 {
     font-size: 30px;
 }
 
-
-.container_about_us_right img{
+.container_about_us_right img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.section_one_order1{
-    order: 2;
-}
-.section_one_order2{
-    order: 1;
-}
-
-.read_more_about_us{
+.read_more_about_us {
     width: 150px;
     height: 50px;
     background-color: var(--gold-color);
@@ -75,13 +68,187 @@ section{
     border: none;
     color: var(--withe-color);
     font-weight: 600;
+    transition: 0.5s ease;
 }
 
-.read_more_about_us_P_color_gray{
-    color: gray;
+.read_more_about_us:hover {
+    background-color: #cf8e5d;
 }
 
-.left_text{
-   
+.read_more_about_us_P_color_gray {
+    color: var(--gray-color);
 }
 
+.container_coffee_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_coffee_menu_left {
+    width: 50%;
+    height: 522px;
+    background: url(./img/chefimg2.png);
+}
+
+.container_coffee_menu_right {
+    width: 50%;
+    flex: 1;
+    padding: 0px 0px 0px 40px;
+}
+
+.features {
+    padding: 100px 0px 0px 0px;
+    height: auto;
+    flex-direction: column;
+}
+
+.features_conatanier_hight {
+    flex-direction: column;
+    text-align: center;
+}
+
+.features_conatanier_hight h2 {
+    font-size: 20px;
+    font-weight: 300;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.FEATURES_span {
+    width: 100px;
+    border: 1px solid var(--gold-color);
+}
+
+.features_conatanier_hight p {
+    font-size: 18px;
+    color: var(--gray-color);
+}
+
+.features_conatanier_low {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 100px 0px 20px 0px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.features_conataiber_low_cards {
+    flex: 1;
+    text-align: center;
+}
+
+.features_conataiber_low_cards h1 {
+    font-size: 25px;
+    padding: 40px 0px 10px 0px;
+}
+
+.features_conataiber_low_cards p {
+    font-size: 15px;
+    color: var(--gray-color);
+}
+
+.RESERVATION {
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background: url(./img/workingHouseimg.png);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+
+.RESERVATION_l {
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.RESERVATION_l h2 {
+    font-size: 20px;
+}
+
+.RESERVATION_l_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.RESERVATION_l_text span {
+    width: 100%;
+    height: 1px;
+    border: 1px solid var(--gold-color);
+}
+
+.RESERVATION_l h1 {
+    font-size: 40px;
+}
+
+.RESERVATION_btn_container {
+    display: flex;
+    gap: 20px;
+}
+
+.RESERVATION_btn_container button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: var(--gold-color);
+    color: var(--withe-color);
+    border-radius: 5px;
+}
+
+.RESERVATION_btn_container button:nth-child(2) {
+    background: none;
+    transition: 0.5s ease;
+}
+
+.RESERVATION_btn_container button:nth-child(2):hover {
+    background-color: var(--gold-color);
+}
+
+.RESERVATION_r {
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: var(--background-color);
+}
+
+.RESERVATION_r h1 {
+    font-size: 25px;
+}
+
+.RESERVATION_r h2 {
+    font-size: 20px;
+}
+
+.people_choose {
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.people_choose_head {
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.people_choose_head h1 {
+    font-size: 18px
+}
+
+.people_choose h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.people_choose p {
+    color: var(--gray-color);
+    font-size: 16;
+}
