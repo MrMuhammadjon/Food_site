@@ -3,6 +3,7 @@
     --withe-color: #fff;
     --background-color: #0A1316;
     --gray-color: gray;
+    --card-color: #10181B;
 }
 
 main {
@@ -252,3 +253,149 @@ section {
     color: var(--gray-color);
     font-size: 16;
 }
+
+.testimonials {
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.testimonial-card {
+    background-color: var(--card-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 360px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #FFA726;
+    background-color: var(--card-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+}
+
+.icon_2{
+    color: #EF7C6A;
+}
+
+.icon_3{
+    color: #F855CA;
+}
+
+.quote {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #CCCCCC;
+}
+
+.rating {
+    font-size: 20px;
+    color: #FFC107;
+    margin-bottom: 10px;
+}
+
+.rating_1{
+    color: #EF7C6A;
+}
+
+.rating_2{
+    color: #F855CA;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.role {
+    font-size: 14px;
+    color: #888888;
+}
+
+.counters {
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.counter {
+    color: white;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.plus {
+    color: #FFA726;
+    font-size: 28px;
+    vertical-align: top;
+}
+
+.label {
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.appstore{
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+    background: url(./img/simplebackground.png);
+    background-position: center;
+    object-fit: cover;
+}
+
+.center_container{
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.appstore_img{
+    gap: 40px;
+    position: relative;
+}
+
+.appstore_img_1{
+   margin-top: -150px;
+    width: 200px;
+    height: 400px;
+}
+
+.appstore_img_2{
+    margin-top: 150px;
+    width: 200px;
+    height: 400px;
+}
+
+.menu_container_head{
+    margin-top: 100px;
+}
+
